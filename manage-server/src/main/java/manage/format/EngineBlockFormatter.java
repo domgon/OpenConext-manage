@@ -38,22 +38,30 @@ public class EngineBlockFormatter {
         commonAttributes.put("entityid", of("name"));
         commonAttributes.put("metadata:name:nl", empty());
         commonAttributes.put("metadata:name:en", empty());
+        commonAttributes.put("metadata:name:pt", empty());
         commonAttributes.put("metadata:displayName:en", empty());
         commonAttributes.put("metadata:displayName:nl", empty());
+        commonAttributes.put("metadata:displayName:pt", empty());
         commonAttributes.put("metadata:description:en", empty());
         commonAttributes.put("metadata:description:nl", empty());
+        commonAttributes.put("metadata:description:pt, empty());
         //logo is handled in separate method
         commonAttributes.put("metadata:OrganizationName:nl", empty());
         commonAttributes.put("metadata:OrganizationName:en", empty());
+        commonAttributes.put("metadata:OrganizationName:pt, empty());
         commonAttributes.put("metadata:OrganizationDisplayName:nl", empty());
         commonAttributes.put("metadata:OrganizationDisplayName:en", empty());
+        commonAttributes.put("metadata:OrganizationDisplayName:pt, empty());
         commonAttributes.put("metadata:OrganizationURL:nl", empty());
         commonAttributes.put("metadata:OrganizationURL:en", empty());
+        commonAttributes.put("metadata:OrganizationURL:pt, empty());
 
         commonAttributes.put("metadata:keywords:en", empty());
         commonAttributes.put("metadata:keywords:nl", empty());
+        commonAttributes.put("metadata:keywords:pt, empty());
         commonAttributes.put("metadata:url:en", empty());
         commonAttributes.put("metadata:url:nl", empty());
+        commonAttributes.put("metadata:url:pt, empty());
         commonAttributes.put("metadata:coin:publish_in_edugain", empty());
 
         commonAttributes.put("metadata:certData", empty());
